@@ -44,7 +44,7 @@ header {
 
 /* navbar */
 .navbar-brand img {
-    width: 40px;  
+    width: 40px;
 }
 
 #navbar {
@@ -98,7 +98,7 @@ header {
     margin-bottom: 10px;
 }
 
-#events-container .subtitle{
+#events-container .subtitle {
     color: #757575;
     margin-bottom: 30px;
 }
@@ -152,7 +152,8 @@ header {
 #event-create-container input,
 #event-create-container select,
 #event-create-container textarea {
-    font-size: 12px;;
+    font-size: 12px;
+    ;
 }
 
 
@@ -175,6 +176,10 @@ header {
     margin: 0;
     font-size: 14px;
     display: flex;
+}
+
+#description-container {
+    margin-top: 30px;
 }
 
 #info-container h3,
