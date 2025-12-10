@@ -1,6 +1,6 @@
 ## TEMPO PARADO NO VIDEO
 
-Aula 19 9:00
+Aula 25 4:23
 
 ## Anotações
 

@@ -15,13 +15,6 @@ Route::get('/contact', [EventController::class, 'contact']);
 // ROTA POST DO CREATE
 Route::post('/events', [EventController::class, 'store']); //store - onde vai ser posto a lógica de add de dados do método store -> convenção do laravel
 
+Route::get('/dashboard', [EventController::class, 'dashboard'])->middleware('auth');
 
-Route::middleware([
-    'auth:sanctum',
-    config('jetstream.auth_session'),
-    'verified',
-])->group(function () {
-    Route::get('/dashboard', function () {
-        return view('dashboard');
-    })->name('dashboard');
-});
+
